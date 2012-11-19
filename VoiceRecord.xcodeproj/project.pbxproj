@@ -17,6 +17,7 @@
 		28D7ACF80DDB3853001CB0EB /* VoiceRecordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* VoiceRecordViewController.m */; };
 		E179C120125B5E2C00D0CD50 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E179C11F125B5E2C00D0CD50 /* AVFoundation.framework */; };
 		E179C126125B5F0500D0CD50 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E179C125125B5F0500D0CD50 /* AudioToolbox.framework */; };
+		E1A020D1165A8493003A0776 /* README.markdown in Resources */ = {isa = PBXBuildFile; fileRef = E1A020D0165A8493003A0776 /* README.markdown */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		8D1107310486CEB800E47090 /* VoiceRecord-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "VoiceRecord-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		E179C11F125B5E2C00D0CD50 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		E179C125125B5F0500D0CD50 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		E1A020D0165A8493003A0776 /* README.markdown */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.markdown; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E1A020D0165A8493003A0776 /* README.markdown */,
 				1D3623240D0F684500981E51 /* VoiceRecordAppDelegate.h */,
 				1D3623250D0F684500981E51 /* VoiceRecordAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* VoiceRecordViewController.h */,
@@ -166,6 +169,7 @@
 			files = (
 				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 				2899E5220DE3E06400AC0155 /* VoiceRecordViewController.xib in Resources */,
+				E1A020D1165A8493003A0776 /* README.markdown in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
